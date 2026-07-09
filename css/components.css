@@ -12,8 +12,8 @@
   padding: 1.25rem;
   border-radius: 1.2rem;
   border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 12px 30px rgba(17, 24, 39, 0.05);
+  background: rgba(255, 250, 241, 0.92);
+  box-shadow: 0 12px 30px var(--navy-shadow);
 }
 
 .page-shell {
@@ -21,7 +21,7 @@
   margin: 2rem auto 0;
   padding: 2.2rem;
   border-radius: 1.5rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 250, 241, 0.96);
   box-shadow: var(--shadow);
 }
 
@@ -33,19 +33,19 @@
   min-height: 140px;
   border-radius: 1rem;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #dbe8ff, #7ba8ff);
+  background: linear-gradient(135deg, var(--surface-alt), var(--secondary));
 }
 
 .visual-one {
-  background: linear-gradient(135deg, #f1e0b5, #e0a64f);
+  background: linear-gradient(135deg, var(--surface-alt), var(--secondary));
 }
 
 .visual-two {
-  background: linear-gradient(135deg, #d7f0ff, #74b4ff);
+  background: linear-gradient(135deg, var(--accent), #d98045);
 }
 
 .visual-three {
-  background: linear-gradient(135deg, #e7d8ff, #9c77ff);
+  background: linear-gradient(135deg, var(--text), var(--navy-soft));
 }
 
 .cta-banner {
@@ -56,6 +56,6 @@
   gap: 1rem;
   padding: 1.5rem 1.8rem;
   border-radius: 1.2rem;
-  background: linear-gradient(135deg, rgba(27, 92, 255, 0.12), rgba(255,255,255,0.9));
+  background: linear-gradient(135deg, rgba(185, 74, 24, 0.12), rgba(255, 250, 241, 0.92));
   border: 1px solid var(--border);
 }
