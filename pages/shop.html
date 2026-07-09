@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop | Atlas Cards</title>
+    <meta
+      name="description"
+      content="Shop premium Atlas Cards playing card decks for poker, cardistry, magic, collecting, and game nights."
+    />
+    <title>Shop Playing Cards | Atlas Cards</title>
     <link rel="stylesheet" href="../css/variables.css" />
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/components.css" />
@@ -15,7 +19,7 @@
         <span>Atlas Cards</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="../index.html#materials">Materials</a>
+        <a href="../index.html#finishes">Finishes</a>
         <a href="shop.html" class="active">Shop</a>
         <a href="about.html">About</a>
       </nav>
@@ -24,30 +28,72 @@
       </div>
     </header>
 
-    <main class="page-shell">
+    <main class="page-shell page-shell-wide">
+      <p class="eyebrow">Premium playing card decks</p>
       <h1>Shop Atlas Cards</h1>
-      <p>Explore premium decks for collectors, magicians, and everyday players.</p>
-      <div class="product-grid">
+      <p>
+        Choose a deck by feel, finish, and purpose. Every Atlas deck includes 52 standard cards, 2 jokers, and a fitted tuck box.
+      </p>
+
+      <div class="product-grid shop-grid">
         <article class="product-card">
-          <div class="product-visual visual-one"></div>
-          <h3>Silverline Deck</h3>
-          <p>Elegant, durable, and made for smooth shuffles.</p>
+          <a class="product-visual visual-one" href="decks/explorer-standard.html">
+            <img src="../assets/products/explorer-standard.png" alt="Explorer Standard playing card deck with compass-inspired tuck box and fanned cards" />
+          </a>
+          <p class="product-meta">Linen paper stock / Poker size</p>
+          <h3>Explorer Standard</h3>
+          <p>A dependable everyday deck with warm atlas detailing, readable faces, and smooth handling.</p>
+          <ul class="spec-list">
+            <li>Great for poker and family games</li>
+            <li>Air-cushioned linen finish</li>
+            <li>Includes 2 jokers</li>
+          </ul>
+          <div class="product-footer">
+            <strong>$14</strong>
+            <a class="btn btn-primary btn-small" href="decks/explorer-standard.html">View deck</a>
+          </div>
         </article>
+
         <article class="product-card">
-          <div class="product-visual visual-two"></div>
-          <h3>Midnight Edition</h3>
-          <p>Bold contrast and premium finish for modern style.</p>
+          <a class="product-visual visual-two" href="decks/crimson-court.html">
+            <img src="../assets/products/crimson-court.png" alt="Crimson Court dark performance playing card deck with black and crimson card fan" />
+          </a>
+          <p class="product-meta">Performance blend / Poker size</p>
+          <h3>Crimson Court</h3>
+          <p>A dark crimson deck for sleight of hand, flourishes, and players who like sharp contrast.</p>
+          <ul class="spec-list">
+            <li>Made for magic and cardistry</li>
+            <li>Paper/plastic blend</li>
+            <li>Snappy edges and smooth fans</li>
+          </ul>
+          <div class="product-footer">
+            <strong>$18</strong>
+            <a class="btn btn-primary btn-small" href="decks/crimson-court.html">View deck</a>
+          </div>
         </article>
+
         <article class="product-card">
-          <div class="product-visual visual-three"></div>
-          <h3>Collector’s Reserve</h3>
-          <p>Limited runs with striking detail and luxury feel.</p>
+          <a class="product-visual visual-three" href="decks/midnight-atlas.html">
+            <img src="../assets/products/midnight-atlas.png" alt="Midnight Atlas collector playing card deck with star-map royal cards and celestial tuck box" />
+          </a>
+          <p class="product-meta">Collector edition / Poker size</p>
+          <h3>Midnight Atlas</h3>
+          <p>A midnight collector deck with star-map royals, silver linework, and a premium tuck box.</p>
+          <ul class="spec-list">
+            <li>Limited edition styling</li>
+            <li>Premium tuck box</li>
+            <li>Display-ready back design</li>
+          </ul>
+          <div class="product-footer">
+            <strong>$24</strong>
+            <a class="btn btn-primary btn-small" href="decks/midnight-atlas.html">View deck</a>
+          </div>
         </article>
       </div>
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Atlas Cards. Crafted for modern brands.</p>
+      <p>(c) <span id="year"></span> Atlas Cards. Crafted for players and collectors.</p>
     </footer>
 
     <script src="../js/app.js"></script>
