@@ -84,6 +84,43 @@
   place-items: center;
 }
 
+.featured-deck {
+  position: relative;
+  display: block;
+  width: min(100%, 520px);
+  overflow: hidden;
+  border: 1px solid rgba(216, 200, 173, 0.72);
+  border-radius: 1.4rem;
+  background: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.featured-deck img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: transform 260ms ease;
+}
+
+.featured-deck:hover img {
+  transform: scale(1.035);
+}
+
+.featured-badge {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  padding: 0.4rem 0.72rem;
+  border-radius: 999px;
+  background: rgba(3, 7, 17, 0.72);
+  color: #f3e7bd;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+}
+
 .card-stack {
   position: relative;
   width: min(100%, 360px);
