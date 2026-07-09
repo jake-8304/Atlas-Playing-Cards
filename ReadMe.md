@@ -59,9 +59,16 @@ Future features include:
 
 ## License
 
-All Rights Reserved.
+This project is proprietary software and is protected under copyright law.
 
-This project and its contents are the intellectual property of the author. Unauthorized copying, modification, distribution, or reproduction of any part of this project is prohibited without prior written permission.
+**Copyright © 2026 Jacob Price. All Rights Reserved.**
+
+No part of this project, including the source code, website design,
+graphics, logos, playing card artwork, documentation, or other assets,
+may be copied, modified, distributed, reproduced, or used without prior
+written permission.
+
+See the `LICENSE` file for complete licensing terms.
 
 ---
 
