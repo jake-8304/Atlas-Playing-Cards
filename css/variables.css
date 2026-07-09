@@ -1,0 +1,11 @@
+:root {
+  --bg: #f4f2eb;
+  --surface: #ffffff;
+  --surface-alt: #f8f6f1;
+  --text: #15202b;
+  --muted: #5f6b77;
+  --accent: #1b5cff;
+  --accent-dark: #0f3fae;
+  --border: #e7e0d3;
+  --shadow: 0 25px 60px rgba(18, 22, 30, 0.12);
+}

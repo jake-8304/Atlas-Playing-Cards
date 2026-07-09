@@ -1,0 +1,61 @@
+.feature-grid,
+.product-grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.info-card,
+.product-card,
+.page-card {
+  padding: 1.25rem;
+  border-radius: 1.2rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 30px rgba(17, 24, 39, 0.05);
+}
+
+.page-shell {
+  width: min(900px, calc(100% - 2rem));
+  margin: 2rem auto 0;
+  padding: 2.2rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: var(--shadow);
+}
+
+.page-shell h1 {
+  margin-top: 0;
+}
+
+.product-visual {
+  min-height: 140px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #dbe8ff, #7ba8ff);
+}
+
+.visual-one {
+  background: linear-gradient(135deg, #f1e0b5, #e0a64f);
+}
+
+.visual-two {
+  background: linear-gradient(135deg, #d7f0ff, #74b4ff);
+}
+
+.visual-three {
+  background: linear-gradient(135deg, #e7d8ff, #9c77ff);
+}
+
+.cta-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1.8rem;
+  border-radius: 1.2rem;
+  background: linear-gradient(135deg, rgba(27, 92, 255, 0.12), rgba(255,255,255,0.9));
+  border: 1px solid var(--border);
+}
